@@ -1,0 +1,26 @@
+site_name: MicrobialGWES
+site_description: Unitig-based epistasis detection pipeline for bacterial genomes
+repo_url: https://github.com/fynngl/MicrobialGWES-docs
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - content.code.copy
+    - toc.integrate
+
+nav:
+  - Home: index.md
+  - Usage: usage.md
+  - Inputs: inputs.md
+
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.highlight
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
