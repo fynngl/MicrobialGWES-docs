@@ -12,6 +12,7 @@ nav:
   - Home: index.md
   - Usage: usage.md
   - Inputs: inputs.md
+  - Outputs: outputs.md
 
 markdown_extensions:
   - admonition
