@@ -9,7 +9,6 @@ theme:
     - toc.integrate
 
 nav:
-  - Home: index.md
   - Usage: usage.md
   - Pipeline structure and tools: pipeline.md
   - Inputs: inputs.md

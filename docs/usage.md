@@ -14,13 +14,14 @@ raw_reads/
 │   ├── <sample_name>_2.fastq.gz
 │   ├── ...
 ```
+
 !!! note
-You can skip this step, if you already have the assemblies of your input data. You then need to create a .txt-file (assembly file) with the path to your assemblies in the following format:
-```
-/path/to/assembly1.fa
-/path/to/assembly2.fa
-...
-```
+    You can skip this step, if you already have the assemblies of your input data. You then need to create a .txt-file (assembly file) with the path to your assemblies in the following format:
+    ```
+    /path/to/assembly1.fa
+    /path/to/assembly2.fa
+    ...
+    ```
 
 ## Running the pipeline
 The pipeline can be run with:
