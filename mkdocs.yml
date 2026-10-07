@@ -13,6 +13,7 @@ nav:
   - Pipeline structure and tools: pipeline.md
   - Inputs: inputs.md
   - Outputs: outputs.md
+  - Example run: example.md
 
 markdown_extensions:
   - admonition

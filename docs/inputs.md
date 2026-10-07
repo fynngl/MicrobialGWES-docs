@@ -16,7 +16,7 @@ All the parameters the pipeline needs are drawn from the config file (```config.
 
 | parameter | description |
 | :------------ | :------ |
-|   ```run_mode```  |   Choose, if you want the pipeline to be run on every ST group of your data seperately ("per_st") or on all samples at one ("full_run"). The ST groups needs to have at least ```min_samples``` number of samples to be considered.   |
+|   ```run_mode```  |   Choose, if you want the pipeline to be run on every ST group of your data seperately ("per_st") or on all samples at one ("full"). The ST groups needs to have at least ```min_samples``` number of samples to be considered.   |
 |     ```assemblies```   |     Path to the assembly file.   |
 |     ```kmer```   |     Kmer-lenght used to create the unitigs with Cuttlefish.   |
 |     ```threads```   |     Number of cores Snakemake should use for a job.  |
