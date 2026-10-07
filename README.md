@@ -1,0 +1,2 @@
+# Documentation of MicrobialGWES
+This is the documentation repository of MicrobialGWES. The readthedocs-documentation can be found [here](https://microbialgwes.readthedocs.io/en/latest/) and the repository of MicrobialGWES can be found [here](https://git.rz.tu-bs.de/scibiome/theses/studienarbeit/fynn-glaeser).
