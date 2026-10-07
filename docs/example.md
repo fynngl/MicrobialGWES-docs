@@ -54,7 +54,7 @@ HybridGWAIS found under the top 1000 most relevant interactions 14 Bonferroni-co
 ![Mahatten plot results](img/manhattan_plot.pdf)
 
 ### Mapping
-Out of the 14 significant interactions with p-values between around 4.132e−05 and around 2.115e− 06,
+Out of the 14 significant interactions with p-values between around 4.132e−05 and around 2.115e−06,
 10 included unmapped unitigs with the identifier u51, u52 and u366. u51 and u52 interacted with an
 unnamed gene-cluster representing the protein glutamate decarboxylase, while u366 interacted with
 the hypothetical protein Aec71. In the other four cases, glutamate decarboxylase interacted with the
