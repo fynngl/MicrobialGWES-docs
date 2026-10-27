@@ -61,6 +61,8 @@ the hypothetical protein Aec71. In the other four cases, glutamate decarboxylase
 characterized protein yjdJ. All of the interactions have an OR in range of around 1.73 to around 3.41,
 so samples with those interactions have higher odds of ampicillin resistance.
 
+![Interaction network](img/interaction_network.pdf)
+
 ### Network comparison
 Neither String nor BioGRID had found interactions between those genes, therefore not
 network comparison was possible.

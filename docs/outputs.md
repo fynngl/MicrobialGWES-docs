@@ -18,7 +18,9 @@ st_runs/K{kmer}/
 ├── annotations/
 │   └── ST{st}/
 │       ├── annotated_pairs.tsv
-│       └── enriched_pairs.tsv
+│       ├── enriched_pairs.tsv
+│       ├── significant_pairs.tsv
+│       └── interaction_network.pdf
 └── network_comparison/
     ├── network_comparison.pdf
     └── summary.tsv
@@ -33,5 +35,7 @@ st_runs/K{kmer}/
 - ```manhattan_plot.pdf``` is a Manhattan plot of HybridGWAIS's results.
 - ```annotated_pairs.tsv``` are the results from HybdridGWAIS mapped to a Panaroo gene cluster.
 - ```enriched_pairs.tsv``` is ```annotated_pairs.tsv``` enriched with gene names and functional annotations from Panaroo.
+- ```significant_pairs.tsv``` is a file only containing the Bonferroni-significant interactions from ```annotated_pairs.tsv```.
+- ```interaction_network.pdf``` is an interaction network of the found genes, only displaying Bonferroni-significant interactions.
 - ```network_comparison.pdf``` is a two-panel figure showing precision-recall and ROC curves for the comparison between HybridGWAIS predictions and known interactions from STRING and BioGRID.
 - ```summary.tsv``` is a summary of the results of network comparison.
